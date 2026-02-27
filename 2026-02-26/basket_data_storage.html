@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Baskets Intraday Reports</title>
+    <title>Basket: Data Storage - Thursday 02/26/2026</title>
     
         <style>
             body {
@@ -161,23 +161,65 @@
         
 </head>
 <body>
-    <h2>Baskets Intraday Reports</h2>
-    <p style="font-size: 1.05em; color: #555;">Available report dates: <strong>3</strong></p>
+    <div class="nav"><div class="nav-prev"><a href="basket_data_center_buildout.html">&larr; Data Center Buildout</a></div><div class="nav-center"><a href="index.html">Report Index</a></div><div class="nav-next"><a href="basket_defense.html">Defense &rarr;</a></div></div>
+    <h2>Basket: Data Storage</h2>
+    <p>Report Date: <strong>Thursday 02/26/2026</strong></p>
 
-    <div class="section">
-        <h3>Latest Report</h3>
-        <p><a href="./2026-02-26/index.html"><strong>2026-02-26</strong></a></p>
+    <h3>Constituent Stock Rankings (by Intraday Gain)</h3>
+    <table>
+<tr><th>Rank</th><th>Symbol</th><th class="highlight-column">Intraday Gain</th><th>Daily Gain</th><th>Open</th><th>High</th><th>Low</th><th>Close</th><th>Volume</th></tr>
+<tr><td>1</td><td><strong>SNDK</strong></td><td class="metric highlight-column"><span class="positive">+0.95%</span></td><td class="metric"><span class="positive">+3.09%</span></td><td class="metric">$645.74</td><td class="metric">$659.86</td><td class="metric">$607.00</td><td class="metric">$651.90</td><td class="metric">23.6M</td></tr>
+<tr><td>2</td><td><strong>STX</strong></td><td class="metric highlight-column"><span class="negative">-0.97%</span></td><td class="metric"><span class="negative">-2.89%</span></td><td class="metric">$413.69</td><td class="metric">$416.50</td><td class="metric">$393.22</td><td class="metric">$409.67</td><td class="metric">3.1M</td></tr>
+<tr><td>3</td><td><strong>WDC</strong></td><td class="metric highlight-column"><span class="negative">-1.36%</span></td><td class="metric"><span class="negative">-2.99%</span></td><td class="metric">$286.14</td><td class="metric">$290.00</td><td class="metric">$270.56</td><td class="metric">$282.25</td><td class="metric">10.8M</td></tr>
+<tr><td>4</td><td><strong>MU</strong></td><td class="metric highlight-column"><span class="negative">-2.18%</span></td><td class="metric"><span class="negative">-3.13%</span></td><td class="metric">$424.84</td><td class="metric">$434.00</td><td class="metric">$401.96</td><td class="metric">$415.56</td><td class="metric">35.5M</td></tr>
+<tr><td>5</td><td><strong>PSTG</strong></td><td class="metric highlight-column"><span class="negative">-10.26%</span></td><td class="metric"><span class="negative">-10.30%</span></td><td class="metric">$73.52</td><td class="metric">$73.80</td><td class="metric">$61.16</td><td class="metric">$65.98</td><td class="metric">10.2M</td></tr>
+</table>
+
+
+    <div class="chart">
+    
+    <img src="./charts/Data_Storage_constituent_comparison_1week.png" alt="Constituent Comparison"/>
     </div>
 
-    <div class="section">
-        <h3>All Dates</h3>
-        <ul class="report-list">
-        <li><a href="./2026-02-26/index.html">2026-02-26</a></li>
-        <li><a href="./2026-02-24/index.html">2026-02-24</a></li>
-        <li><a href="./2026-02-23/index.html">2026-02-23</a></li>
-    </ul>
+    <div class="chart">
+    
+    <img src="./charts/Data_Storage_constituent_comparison_1month.png" alt="Constituent Comparison"/>
     </div>
 
+    <div class="chart">
+    
+    <img src="./charts/Data_Storage_constituent_comparison_3month.png" alt="Constituent Comparison"/>
+    </div>
+    <h3>3-Month Charts</h3>
+    <div class="chart">
+    <h4>MU</h4>
+    <img src="./charts/MU_chart_3m.png" alt="MU Chart"/>
+    </div>
+    <div class="chart">
+    <h4>PSTG</h4>
+    <img src="./charts/PSTG_chart_3m.png" alt="PSTG Chart"/>
+    </div>
+    <div class="chart">
+    <h4>SNDK</h4>
+    <img src="./charts/SNDK_chart_3m.png" alt="SNDK Chart"/>
+    </div>
+    <div class="chart">
+    <h4>STX</h4>
+    <img src="./charts/STX_chart_3m.png" alt="STX Chart"/>
+    </div>
+    <div class="chart">
+    <h4>WDC</h4>
+    <img src="./charts/WDC_chart_3m.png" alt="WDC Chart"/>
+    </div>
+
+    <div class="footer">
+        <p><strong>Methodology Notes:</strong></p>
+        <ul>
+            <li><strong>Intraday Gain:</strong> (Close - Open) / Open x 100</li>
+            <li><strong>Daily Gain:</strong> (Close - Previous Close) / Previous Close x 100</li>
+            <li><strong>Normalized Value:</strong> All stocks start at 1000 on the first day of the chart period, then compound daily returns. This allows comparing stocks with different price levels on an equal footing - a stock ending at 1100 gained 10%, while one ending at 900 lost 10%.</li>
+        </ul>
+    </div>
     <div style="margin-top:24px;padding-top:12px;border-top:1px solid #e5e7eb;font-size:0.9em;color:#666;">Page generated: <strong>Thursday 2026-02-26 06:19:08 PM CST</strong></div>
 </body>
 </html>
