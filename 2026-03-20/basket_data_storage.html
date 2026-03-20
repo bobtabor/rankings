@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Baskets Intraday Reports</title>
+    <title>Basket: Data Storage - Friday 03/20/2026</title>
     
         <style>
             body {
@@ -161,30 +161,65 @@
         
 </head>
 <body>
-    <h2>Baskets Intraday Reports</h2>
-    <p style="font-size: 1.05em; color: #555;">Available report dates: <strong>10</strong></p>
+    <div class="nav"><div class="nav-prev"><a href="basket_data_center_buildout.html">&larr; Data Center Buildout</a></div><div class="nav-center"><a href="index.html">Report Index</a></div><div class="nav-next"><a href="basket_defense.html">Defense &rarr;</a></div></div>
+    <h2>Basket: Data Storage</h2>
+    <p>Report Date: <strong>Friday 03/20/2026</strong></p>
 
-    <div class="section">
-        <h3>Latest Report</h3>
-        <p><a href="./2026-03-20/index.html"><strong>2026-03-20</strong></a></p>
+    <h3>Constituent Stock Rankings (by Intraday Gain)</h3>
+    <table>
+<tr><th>Rank</th><th>Symbol</th><th class="highlight-column">Intraday Gain</th><th>Daily Gain</th><th>Open</th><th>High</th><th>Low</th><th>Close</th><th>Volume</th></tr>
+<tr><td>1</td><td><strong>PSTG</strong></td><td class="metric highlight-column"><span class="negative">-3.19%</span></td><td class="metric"><span class="negative">-4.33%</span></td><td class="metric">$64.68</td><td class="metric">$65.20</td><td class="metric">$62.56</td><td class="metric">$62.62</td><td class="metric">1.2M</td></tr>
+<tr><td>2</td><td><strong>WDC</strong></td><td class="metric highlight-column"><span class="negative">-4.77%</span></td><td class="metric"><span class="negative">-7.00%</span></td><td class="metric">$309.51</td><td class="metric">$312.99</td><td class="metric">$293.75</td><td class="metric">$294.75</td><td class="metric">6.6M</td></tr>
+<tr><td>3</td><td><strong>STX</strong></td><td class="metric highlight-column"><span class="negative">-4.79%</span></td><td class="metric"><span class="negative">-5.03%</span></td><td class="metric">$433.50</td><td class="metric">$439.73</td><td class="metric">$411.03</td><td class="metric">$412.74</td><td class="metric">2.9M</td></tr>
+<tr><td>4</td><td><strong>MU</strong></td><td class="metric highlight-column"><span class="negative">-5.39%</span></td><td class="metric"><span class="negative">-5.47%</span></td><td class="metric">$443.92</td><td class="metric">$449.10</td><td class="metric">$416.77</td><td class="metric">$419.97</td><td class="metric">40.0M</td></tr>
+<tr><td>5</td><td><strong>SNDK</strong></td><td class="metric highlight-column"><span class="negative">-8.78%</span></td><td class="metric"><span class="negative">-8.71%</span></td><td class="metric">$772.70</td><td class="metric">$777.60</td><td class="metric">$700.11</td><td class="metric">$704.83</td><td class="metric">16.9M</td></tr>
+</table>
+
+
+    <div class="chart">
+    
+    <img src="./charts/Data_Storage_constituent_comparison_1week.png" alt="Constituent Comparison"/>
     </div>
 
-    <div class="section">
-        <h3>All Dates</h3>
-        <ul class="report-list">
-        <li><a href="./2026-03-20/index.html">2026-03-20</a></li>
-        <li><a href="./2026-03-19/index.html">2026-03-19</a></li>
-        <li><a href="./2026-03-18/index.html">2026-03-18</a></li>
-        <li><a href="./2026-03-17/index.html">2026-03-17</a></li>
-        <li><a href="./2026-03-16/index.html">2026-03-16</a></li>
-        <li><a href="./2026-03-13/index.html">2026-03-13</a></li>
-        <li><a href="./2026-03-11/index.html">2026-03-11</a></li>
-        <li><a href="./2026-02-26/index.html">2026-02-26</a></li>
-        <li><a href="./2026-02-24/index.html">2026-02-24</a></li>
-        <li><a href="./2026-02-23/index.html">2026-02-23</a></li>
-    </ul>
+    <div class="chart">
+    
+    <img src="./charts/Data_Storage_constituent_comparison_1month.png" alt="Constituent Comparison"/>
     </div>
 
+    <div class="chart">
+    
+    <img src="./charts/Data_Storage_constituent_comparison_3month.png" alt="Constituent Comparison"/>
+    </div>
+    <h3>3-Month Charts</h3>
+    <div class="chart">
+    <h4>MU</h4>
+    <img src="./charts/MU_chart_3m.png" alt="MU Chart"/>
+    </div>
+    <div class="chart">
+    <h4>PSTG</h4>
+    <img src="./charts/PSTG_chart_3m.png" alt="PSTG Chart"/>
+    </div>
+    <div class="chart">
+    <h4>SNDK</h4>
+    <img src="./charts/SNDK_chart_3m.png" alt="SNDK Chart"/>
+    </div>
+    <div class="chart">
+    <h4>STX</h4>
+    <img src="./charts/STX_chart_3m.png" alt="STX Chart"/>
+    </div>
+    <div class="chart">
+    <h4>WDC</h4>
+    <img src="./charts/WDC_chart_3m.png" alt="WDC Chart"/>
+    </div>
+
+    <div class="footer">
+        <p><strong>Methodology Notes:</strong></p>
+        <ul>
+            <li><strong>Intraday Gain:</strong> (Close - Open) / Open x 100</li>
+            <li><strong>Daily Gain:</strong> (Close - Previous Close) / Previous Close x 100</li>
+            <li><strong>Normalized Value:</strong> All stocks start at 1000 on the first day of the chart period, then compound daily returns. This allows comparing stocks with different price levels on an equal footing - a stock ending at 1100 gained 10%, while one ending at 900 lost 10%.</li>
+        </ul>
+    </div>
     <div style="margin-top:24px;padding-top:12px;border-top:1px solid #e5e7eb;font-size:0.9em;color:#666;">Page generated: <strong>Friday 2026-03-20 02:00:03 PM CDT</strong></div>
 </body>
 </html>
